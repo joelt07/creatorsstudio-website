@@ -27,6 +27,16 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+       <header className="w-full bg-black text-white py-4 px-6 flex justify-between items-center border-b border-gray-800">
+  <h1 className="text-xl font-bold">Creators Studio</h1>
+
+  <nav className="flex gap-6 text-gray-300">
+    <a href="/" className="hover:text-white">Home</a>
+    <a href="#services" className="hover:text-white">Services</a>
+    <a href="#pricing" className="hover:text-white">Pricing</a>
+    <a href="#contact" className="hover:text-white">Contact</a>
+  </nav>
+</header>
         {children}
       </body>
     </html>
