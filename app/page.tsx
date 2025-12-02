@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <>
       <main className="min-h-screen bg-black text-white flex flex-col items-center justify-center p-10">
-        <h1 className="text-5xl font-extrabold text-center">Creators Studio</h1>
+        <h1 className="text-5xl font-extrabold text-center">Kairo Studio</h1>
         <p className="text-lg text-gray-300 mt-4 text-center max-w-2xl">
           We help content creators grow faster with professional thumbnails,
           engaging scripts, channel audits, comeback strategies, LinkedIn
